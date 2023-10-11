@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+
+    android:background="@drawable/border_item_recycler_sach"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_maSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:text="Mã sách: 1" />
+
+    <TextView
+        android:id="@+id/tv_tenSach_quanLySach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_maSach"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:text="sách cntt" />
+
+    <TextView
+        android:id="@+id/tv_giaThueSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tenSach_quanLySach"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:text="Gia thue" />
+
+    <TextView
+        android:id="@+id/tv_loaiSach_quanLySach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_giaThueSach"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:text="Loai sach: cntt" />
+
+    <ImageView
+        android:id="@+id/image_deleteBook"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/tv_maSach"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/rubbish" />
+</RelativeLayout>

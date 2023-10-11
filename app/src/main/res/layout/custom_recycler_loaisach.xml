@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutLoaiSach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_item_recycler_loaisach"
+    android:padding="16dp">
+<TextView
+    android:id="@+id/tv_maLoaiSach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:text="Mã loại sách"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    />
+    <TextView
+        android:id="@+id/tv_tenLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+      android:layout_below="@+id/tv_maLoaiSach"
+        android:text="Sách công nghệ thông tin"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:id="@+id/img_deleteLoaiSach"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/rubbish" />
+</RelativeLayout>

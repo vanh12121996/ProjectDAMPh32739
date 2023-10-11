@@ -1,0 +1,52 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_maThanhVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="ma tv"
+            android:textColor="@color/color_text_thanhvien"
+            android:textSize="19sp" />
+
+        <TextView
+
+            android:id="@+id/tv_hoTenThanhVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_maThanhVien"
+            android:layout_alignParentStart="true"
+            android:text="Họ tên thành viên"
+            android:textColor="@color/color_text_thanhvien"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_ngaySinhThanhVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_hoTenThanhVien"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:text="Ngày sinh: 28/08/2004"
+            android:textColor="@color/color_text_thanhvien"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

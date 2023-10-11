@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:padding="20dp"
+    tools:context="fpoly.anhnvph32739.duanmau.fragment.FragmentCheckExistsAcount">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@mipmap/back" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+      android:textColorHint="#B1B0AB"
+        android:id="@+id/textInput_layout_user3"
+      android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_checkAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tài khoản của bạn" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/textInput_layout_user3"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button_gradient"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_confirmForgotPass"
+        android:textColor="@color/white"
+        android:text="Xác nhận" />
+
+</RelativeLayout>

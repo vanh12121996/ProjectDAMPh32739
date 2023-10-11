@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#CDBA14"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="fpoly.anhnvph32739.duanmau.fragment.FragmentThemNguoiDung">
+<ImageView
+    android:layout_width="170dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="170dp"
+    android:src="@mipmap/man"
+    />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#fff"
+        app:boxCornerRadiusTopStart="20sp"
+        app:boxStrokeColor="@color/white"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxStrokeWidth="2dp">
+
+        <EditText
+            android:id="@+id/edt_userName_addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#fff"
+        app:boxStrokeColor="@color/white"
+        app:boxStrokeWidth="2dp">
+
+        <EditText
+            android:id="@+id/edt_fullName_addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full  name"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        app:boxStrokeColor="@color/white"
+        android:textColorHint="#fff"
+        app:boxStrokeWidth="2dp">
+
+        <EditText
+            android:id="@+id/edt_passWord_addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColorHint="#fff"
+        app:boxStrokeColor="@color/white"
+        app:boxCornerRadiusBottomStart="20sp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxStrokeWidth="2dp">
+
+        <EditText
+            android:id="@+id/edt_confirmPass_addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="text"
+            android:textColor="@color/white" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_confirm_addUser"
+        android:text="Lưu"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_cancel_addUser"
+        android:text="Huỷ"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

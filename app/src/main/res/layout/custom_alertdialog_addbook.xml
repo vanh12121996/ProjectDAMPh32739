@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/edt_themTenSach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Tên "
+    />
+    <EditText
+        android:id="@+id/edt_themGiaThue"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá thuê"
+        android:inputType="number"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_loaiSach"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Thêm"
+        android:background="@drawable/background_button_gradient"
+        android:id="@+id/btn_confirmAddBook"
+        />
+</LinearLayout>
